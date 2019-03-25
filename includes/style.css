@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header, nav, main, section, footer, div{
+    display : block;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-style: normal;
+}
+
+header{
+    margin-top:76px;
+    margin-bottom: 26px;
+}
+
+main, nav, header {
+  margin-left: 125px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a span {
+  float: right;
+  color: #a6c0fe;
+  font-size: 68px;
+  margin-left: 125px;
+}
+
+#logo {
+  background: url("../images/mylogo.png") no-repeat left;
+  background-size: contain;
+  height: 88px;
+  display: inline-block;
+}
+
+nav a{
+  font-size: 20px;
+  padding-right:30px;
+  line-height: 24px;
+  color: darkgrey;
+}
+
+nav a:hover{
+    color: #a6c0fe;
+}
+
+p {
+  font-size: 19px;
+}
+
+#images {
+  margin-top:50px;
+}
+
+#images img {
+    height: 450px;
+    width: 350px;
+    margin-left:30px;
+}
+
+.image {
+  border-radius: 7px;
+}
+
+#bio-david{
+  margin-top:50px;
+}
+
+.bio-title{
+    color: #a6c0fe;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#languages{
+  margin-top:50px;
+}
+
+.list-pgl {
+  padding-top: 20px;
+  list-style-type: none;
+  opacity: 0.7;
+}
+
+.list-pgl li i{
+    font-size: 50px;
+}
+
+.list-pgl li{
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+
+.list-pgl li span{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 30px;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.gif img {
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+footer{
+  margin-top: 40px;
+    height: 240px;
+    background: #a6c0fe;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.links-top{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.links-top a{
+    color: lightgrey;
+    padding-bottom: 5px;
+}
+
+
+.links-top a{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 60px;
+    border-radius: 12px;
+}
+
+.btn-git span{
+    background-color: #C6B393;
+    padding: 12px;
+}
+
+.thin-border{
+    border: 1px solid lightgrey;
+}
+
+.links-bottom{
+    margin-top: 50px;
+}
+
+.links-bottom a{
+    margin-right:20px;
+    color: lightgrey;
+}
+
+.links-bottom i{
+   font-size: 25px;
+}
+
+
+
+
